@@ -1,0 +1,27 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.count {
+  font-size: 2rem;
+}
+
+.dec {
+  border: 1px solid red;
+  margin-right: 0.5rem;
+}
+
+.inc {
+  border: 1px solid blue;
+  margin-left: 0.5rem;
+}
+
+.clear {
+  border: 1px solid rgb(193, 193, 193);
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+}
