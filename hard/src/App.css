@@ -1,0 +1,54 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+form input, form textarea {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.completed {
+  background-color: rgb(169, 255, 169);
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px;
+  margin: 0px;
+}
+
+li {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.space {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+.toggle-box {
+  cursor: pointer;
+  height: 2rem;
+  width: 2rem;
+}
