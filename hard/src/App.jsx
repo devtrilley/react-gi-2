@@ -129,10 +129,7 @@ function App() {
         <ul>
           {todos.map((todo) => {
             return (
-              <li
-                key={todo.id}
-                className={todo.completed ? "completed" : ""}
-              >
+              <li key={todo.id} className={todo.completed ? "completed" : ""}>
                 {/* Link to go to specific todos detail page to see extra comments */}
                 {/* Link from npm 'RDR'*/}
                 <Link to={`/todos/${todo.id}`}>{todo.title}</Link>
@@ -169,7 +166,12 @@ function App() {
                   </div>
                 ) : (
                   <div>
-                    <button className="space" onClick={() => startEditing(todo)}>Edit</button>
+                    <button
+                      className="space"
+                      onClick={() => startEditing(todo)}
+                    >
+                      Edit
+                    </button>
                   </div>
                 )}
 
